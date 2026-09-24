@@ -1,20 +1,90 @@
-# React + Vite
+# Yepp Ads — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Yepp Ads is a location-based advertising platform that helps users discover nearby shops, outlets, offers, discounts, and promotional deals.
 
-Currently, two official plugins are available:
+This repository contains the frontend application built with React.js, Vite, Redux Toolkit, Tailwind CSS, and other modern frontend technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- 📍 Location-based shop and outlet discovery
+- 🎯 Browse advertisements, offers, and promotional deals
+- 🗺️ Google Maps integration for location selection
+- 🔔 Firebase Cloud Messaging (FCM) notifications
+- 🔄 Dynamic location switching
+- 📱 Fully responsive user interface
+- 🔐 Authentication and protected routes
+- 💾 Persistent application state with Redux Persist
+- 🛒 Deal and offer management
+- 📊 Data visualization and reporting
+- 🔔 Toast notifications
+- 📷 QR code support
+- ⚡ Smooth animations and interactive UI
+- 📡 REST API integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- React Router
+- JavaScript
+- Vite
+- Tailwind CSS
 
+### State Management
 
-autometic reload or refresh token 
-result = await baseQuery(args, api, extraOptions);
+- Redux Toolkit
+- React Redux
+- Redux Persist
+
+### API & Data
+
+- Axios
+- REST API
+
+### Authentication & Notifications
+
+- Firebase
+- Firebase Cloud Messaging
+- JS Cookie
+
+### Maps & Location
+
+- Google Maps API
+- `@react-google-maps/api`
+
+### UI & Utilities
+
+- Lucide React
+- React Hot Toast
+- React Hook Form
+- React Phone Input
+- Swiper
+- GSAP
+- Moment.js
+- React QR Code
+- Recharts
+
+## Project Structure
+
+```text
+yepp_frontend/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── store/
+│   ├── hooks/
+│   ├── utils/
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
